@@ -2,8 +2,6 @@ import numpy as np
 import os
 import argparse
 from tqdm import tqdm
-# os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
-# os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 import torch.nn as nn
 import torch
 import torch.nn.functional as F
